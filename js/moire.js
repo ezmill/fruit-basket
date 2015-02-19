@@ -148,7 +148,7 @@ function onDocumentMouseMove(event){
     mouseY = (event.clientY );
     mapMouseX = map(mouseX, window.innerWidth, -1.0,1.0);
     mapMouseY = map(mouseY, window.innerHeight, -1.0,1.0);
-    resX = map(mouseX, window.innerWidth, 6000.0,0.0);
+    resX = map(mouseX, window.innerWidth, 4000.0,2000.0);
 	material.uniforms.mouseX.value = mapMouseX;
 	material.uniforms.mouseY.value = mapMouseY;
 	materialFB.uniforms.mouseX.value = mapMouseX;
