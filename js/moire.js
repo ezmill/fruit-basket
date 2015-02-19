@@ -79,7 +79,7 @@ function createBackgroundScene(){
 	sceneRTT.add( quad );
 }
 function createFeedbackScene(){
-	var tex = THREE.ImageUtils.loadTexture("textures/caustics.jpg");
+	var tex = THREE.ImageUtils.loadTexture("textures/1.jpg");
 	var materialFBParameters = {
 		uniforms: { 
 			time: { type: "f", value: 0.0 } ,
